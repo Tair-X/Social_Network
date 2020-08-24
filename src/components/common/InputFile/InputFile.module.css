@@ -1,0 +1,6 @@
+.example2 .btnTertiary{color:black;align-content:center;padding-left: 10px;line-height:40px;width:140px;margin:auto;display:inline;border:2px solid black}
+.example2 .btnTertiary:hover,.example2 .btnTertiary:focus{color:dodgerblue;background-color:black;}
+.example2 .inputFile{width:.1px;height:.1px;opacity:0;overflow:hidden;position:absolute;z-index:-1}
+.example2 .inputFile + .jsLabelFile{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 10px;cursor:pointer}
+.example2 .inputFile + .jsLabelFile .icon:before{content:"\f093"}
+.example2 .inputFile + .jsLabelFile.has-file .icon:before{content:"\f00c";color:#5AAC7B}
